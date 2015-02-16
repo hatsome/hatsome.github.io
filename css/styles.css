@@ -1,0 +1,81 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: Consolas, monaco, monospace;
+    font-size: 16px;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+#hlogo {
+    height: 170px;
+    position: relative;
+    text-align: center;
+}
+
+#hlogo .logo_img {
+    height: 80%;
+    margin: 0 auto;
+}
+
+#hlogo .logo_text {
+    color: #50C878;
+    font-weight: bold;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}
+
+nav {
+    background-color: #50C878;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul {
+    font-size: 0;
+}
+
+nav li {
+    font-size: 18px;
+    display: inline;
+}
+
+nav a {
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #32B45E; 
+}
+
+#content div {
+    margin: 0 auto;
+    width: 600px;
+    padding-top: 20px;
+}
+
+footer {
+    background-color: #637067;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+#smedia a {
+    padding: 0px 10px 0px 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer p {
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 10px 0px 10px 0px;;
+}
