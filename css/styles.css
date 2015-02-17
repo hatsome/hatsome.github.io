@@ -21,7 +21,7 @@ html, body {
 h1 {
     font-size: 24px;
     font-style: bold;
-    padding: 15px 0px 5px 0px;
+    padding: 15px 0px 5px;
 }
 
 #hlogo {
@@ -62,7 +62,7 @@ nav li {
 nav a {
     color: #FFFFFF;
     display: inline-block;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 20px;
     text-decoration: none;
 }
 
@@ -79,6 +79,29 @@ nav a:hover {
     width: 600px;
 }
 
+#content a {
+    color: #637067;
+    text-decoration: none;
+}
+
+#content a:hover {
+    border-bottom: 2px solid #637067;
+    text-decoration: underline;
+}
+
+#pictures {
+    padding: 10px 0px;
+    width: 500px;
+    max-width: 500px;
+}
+
+#pictures img {
+    float: left;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+}
+
 footer {
     background-color: #637067;
     position: absolute;
@@ -89,7 +112,7 @@ footer {
 }
 
 #smedia a {
-    padding: 0px 10px 0px 10px;
+    padding: 0px 10px;
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -97,5 +120,5 @@ footer {
 footer p {
     color: #FFFFFF;
     font-size: 14px;
-    padding: 10px 0px 10px 0px;;
+    padding: 10px 0px;
 }
