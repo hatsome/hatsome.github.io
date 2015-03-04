@@ -75,8 +75,6 @@ nav a:hover {
 }
 
 #content div {
-    margin: 0 auto;
-    width: 600px;
 }
 
 #content a {
@@ -89,18 +87,32 @@ nav a:hover {
     text-decoration: underline;
 }
 
-#pictures {
-    padding: 10px 0px;
-    width: 500px;
-    max-width: 500px;
-    height: 350px;
+#textcontent {
+    margin: 0 auto;
+    width: 600px;
+
 }
 
-#pictures img {
-    float: left;
+#pictures {
+    padding: 10px 0px;
+    width: 100%;
+}
+
+#imgblock {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#imgblock img {
     padding: 5px;
     width: 150px;
     height: 150px;
+}
+
+#gallery {
+    height: 200px;
+    width: 100%;
+    background-color: green;
 }
 
 footer {
