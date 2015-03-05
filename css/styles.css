@@ -13,6 +13,10 @@ html, body {
     height: 100%;
 }
 
+body {
+    overflow-y:hidden;
+}
+
 #container {
     min-height: 100%;
     position: relative;
@@ -99,8 +103,9 @@ nav a:hover {
 }
 
 #imgblock {
-    display: inline-block;
+    display: block;
     margin: 0 auto;
+    width: 500px;
 }
 
 #imgblock img {
@@ -109,14 +114,25 @@ nav a:hover {
     height: 150px;
 }
 
+.hidden {
+    display: none;
+}
+
 #gallery {
-    height: 200px;
+    height: 500px;
     width: 100%;
-    background-color: green;
+    background-color: #1E2320;
+}
+
+#gallery img {
+    display: block;
+    padding: 20px;
+    height: 460px;
+    margin: 0 auto;
 }
 
 footer {
-    background-color: #637067;
+    background-color: #4D5D52;
     position: absolute;
     text-align: center;
     bottom: 0;
