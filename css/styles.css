@@ -64,7 +64,7 @@ nav li {
 }
 
 nav a {
-    color: #FFFFFF;
+    color: #fff;
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
@@ -87,14 +87,52 @@ nav a:hover {
 }
 
 #content a:hover {
-    border-bottom: 2px solid #637067;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
-#textcontent {
+#maincontent {
     margin: 0 auto;
     width: 600px;
 
+}
+
+.work {
+    color: #fff;
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    background-color: #1E2320;
+}
+
+.work_img {
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+.work_img .front {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.work_img .back {
+    position: relative;
+}
+
+.left .work_img { 
+    float: left;
+    margin-right: 5px;
+}
+
+.right .work_img {
+    float: right;
+    margin-left: 5px;
+}
+
+.clearing { 
+    clear: both; 
 }
 
 #pictures {
