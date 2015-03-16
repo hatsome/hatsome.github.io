@@ -96,12 +96,27 @@ nav a:hover {
 
 }
 
+#maincontent ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+#maincontent ul li {
+    list-style-position:inside;
+}
+
+#maincontent ul li:before {
+    list-style-position:inside;
+    content: ">  ";
+    color: #50C878;
+    font-weight: bold;
+}
+
 .work {
-    color: #fff;
     margin: 5px;
     padding: 10px;
     width: 100%;
-    background-color: #1E2320;
+    background-color: #DDD;
 }
 
 .work_img {
